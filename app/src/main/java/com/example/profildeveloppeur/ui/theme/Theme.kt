@@ -13,25 +13,25 @@ import androidx.compose.ui.unit.dp
 // Le thème sombre
 private val DarkColorScheme = darkColorScheme(
     primary = Color(0xFF81C784),
-    onPrimary = Color(0xFF00390A),
-    secondary = Color(0xFFFFB1C8),
-    onSecondary = Color(0xFF5E1133),
-    background = Color(0xFF191113),
-    onBackground = Color(0xFFEFDFE1),
-    surface = Color(0xFF3A2A30),
-    onSurface = Color(0xFFEFDFE1)
+    onPrimary = Color(0xFF003909),
+    secondary = Color(0xFFB0BEC5),
+    onSecondary = Color(0xFF1C2529),
+    background = Color(0xFF121212),
+    onBackground = Color(0xFFE3E3E3),
+    surface = Color(0xFF242424),
+    onSurface = Color(0xFFE3E3E3)
 )
 
 // Le thème clair
 private val LightColorScheme = lightColorScheme(
-    primary = Color(0xFF388E3C),
+    primary = Color(0xFF2E7D32),
     onPrimary = Color.White,
-    secondary = Color(0xFFC2185B),
+    secondary = Color(0xFF455A64),
     onSecondary = Color.White,
-    background = Color(0xFFFFF8F9),
-    onBackground = Color(0xFF201A1B),
-    surface = Color(0xFFFCE4EC),
-    onSurface = Color(0xFF201A1B)
+    background = Color(0xFFFAFAFA),
+    onBackground = Color(0xFF1C1C1C),
+    surface = Color(0xFFECEFF1),
+    onSurface = Color(0xFF1C1C1C)
 )
 
 // Les arrondis pour les cartes et autres composants
